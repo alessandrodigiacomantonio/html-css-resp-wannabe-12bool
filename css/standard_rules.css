@@ -73,3 +73,23 @@ html {
 .border-circle {
   border-radius: 50%;
 }
+
+/* regole su posizionamento e display */
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.pos.fix {
+  position: fixed;
+}
+.dis-block {
+  display: block;
+}
+.dis-inline-block {
+  display: inline-block;
+}
+.dis-inline {
+  display: inline;
+}
