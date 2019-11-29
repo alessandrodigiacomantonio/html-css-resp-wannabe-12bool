@@ -1,0 +1,13 @@
+/* IMPORTANTE: la classe .debug va inserita nell'elemento <body> */
+.debug {
+  background-color: lightgreen;
+}
+.debug .container-12col {
+  background-color: green;
+  border: 2px solid blue;
+}
+.debug [class*="col-"] {
+  background-color: #c5c5c5;
+  border: 1px solid white;
+}
+/* /debug */

@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .container-12col {
   max-width: 1080px;
   margin: 0 auto;
@@ -18,91 +12,231 @@
   float: left;
 }
 
-/* misure varie colonne */
-.col-1 {
-  width: calc((100% / 12) * 1);
-}
-.col-2 {
-  width: calc((100% / 12) * 2);
-}
-.col-3 {
-  width: calc((100% / 12) * 3);
-}
-.col-4 {
-  width: calc((100% / 12) * 4);
-}
-.col-5 {
-  width: calc((100% / 12) * 5);
-}
-.col-6 {
-  width: calc((100% / 12) * 6);
-}
-.col-7 {
-  width: calc((100% / 12) * 7);
-}
-.col-8 {
-  width: calc((100% / 12) * 8);
-}
-.col-9 {
-  width: calc((100% / 12) * 9);
-}
-.col-10 {
-  width: calc((100% / 12) * 10);
-}
-.col-11 {
-  width: calc((100% / 12) * 11);
-}
-.col-12 {
-  width: calc((100% / 12) * 12);
-}
-/* /misure varie colonne */
+  /* misure colonne min-width 993px - large device*/
+@media screen (min-width: 993px) {
+  .col-ld-1 {
+    width: calc((100% / 12) * 1);
+  }
+  .col-ld-2 {
+    width: calc((100% / 12) * 2);
+  }
+  .col-ld-3 {
+    width: calc((100% / 12) * 3);
+  }
+  .col-ld-4 {
+    width: calc((100% / 12) * 4);
+  }
+  .col-ld-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-ld-6 {
+    width: calc((100% / 12) * 6);
+  }
+  .col-ld-7 {
+    width: calc((100% / 12) * 7);
+  }
+  .col-ld-8 {
+    width: calc((100% / 12) * 8);
+  }
+  .col-ld-9 {
+    width: calc((100% / 12) * 9);
+  }
+  .col-ld-10 {
+    width: calc((100% / 12) * 10);
+  }
+  .col-ld-11 {
+    width: calc((100% / 12) * 11);
+  }
+  .col-ld-12 {
+    width: calc((100% / 12) * 12);
+  }
+/* /misure colonne min-width 993px - large device */
 
-/* misure vari offset */
-.col-offset-1 {
-  margin-left: calc((100% / 12) * 1);
+/* misure colonne offset min-width 993px - large device */
+  .col-ld-offset-1 {
+    margin-left: calc((100% / 12) * 1);
+  }
+  .col-ld-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+  }
+  .col-ld-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+  }
+  .col-ld-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+  }
+  .col-ld-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+  }
+  .col-ld-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+  }
+  .col-ld-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+  }
+  .col-ld-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+  }
+  .col-ld-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+  }
+  .col-ld-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+  }
+  .col-ld-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+  }
 }
-.col-offset-2 {
-  margin-left: calc((100% / 12) * 2);
-}
-.col-offset-3 {
-  margin-left: calc((100% / 12) * 3);
-}
-.col-offset-4 {
-  margin-left: calc((100% / 12) * 4);
-}
-.col-offset-5 {
-  margin-left: calc((100% / 12) * 5);
-}
-.col-offset-6 {
-  margin-left: calc((100% / 12) * 6);
-}
-.col-offset-7 {
-  margin-left: calc((100% / 12) * 7);
-}
-.col-offset-8 {
-  margin-left: calc((100% / 12) * 8);
-}
-.col-offset-9 {
-  margin-left: calc((100% / 12) * 9);
-}
-.col-offset-10 {
-  margin-left: calc((100% / 12) * 10);
-}
-.col-offset-11 {
-  margin-left: calc((100% / 12) * 11);
-}
-/* /misure vari offset */
+/* /misure colonne offset min-width 993px - large device */
 
-/* IMPORTANTE: la classe .debug va inserita nell'elemento <body> */
-.debug {
-  background-color: lightgreen;
+/* misure colonne min-width 769px and max-width 992px - medium device*/
+@media screen (max-width: 992px) {
+  .col-md-1 {
+    width: calc((100% / 12) * 1);
+  }
+  .col-md-2 {
+    width: calc((100% / 12) * 2);
+  }
+  .col-md-3 {
+    width: calc((100% / 12) * 3);
+  }
+  .col-md-4 {
+    width: calc((100% / 12) * 4);
+  }
+  .col-md-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-md-6 {
+    width: calc((100% / 12) * 6);
+  }
+  .col-md-7 {
+    width: calc((100% / 12) * 7);
+  }
+  .col-md-8 {
+    width: calc((100% / 12) * 8);
+  }
+  .col-md-9 {
+    width: calc((100% / 12) * 9);
+  }
+  .col-md-10 {
+    width: calc((100% / 12) * 10);
+  }
+  .col-md-11 {
+    width: calc((100% / 12) * 11);
+  }
+  .col-md-12 {
+    width: calc((100% / 12) * 12);
+  }
+  /* /misure colonne min-width 769px and max-width 992px - medium device*/
+  /* misure colonne offset min-width 993px - large device */
+  .col-md-offset-1 {
+    margin-left: calc((100% / 12) * 1);
+  }
+  .col-md-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+  }
+  .col-md-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+  }
+  .col-md-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+  }
+  .col-md-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+  }
+  .col-md-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+  }
+  .col-md-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+  }
+  .col-md-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+  }
+  .col-md-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+  }
+  .col-md-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+  }
+  .col-md-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+  }
 }
-.debug .container-12col {
-  background-color: green;
-  border: 2px solid blue;
+/* /misure colonne offset min-width 993px - large device */
+
+/* misure colonne max-width 768px - small device*/
+@media screen (max-width: 768px){
+  .col-sd-1 {
+    width: calc((100% / 12) * 1);
+  }
+  .col-sd-2 {
+    width: calc((100% / 12) * 2);
+  }
+  .col-sd-3 {
+    width: calc((100% / 12) * 3);
+  }
+  .col-sd-4 {
+    width: calc((100% / 12) * 4);
+  }
+  .col-sd-5 {
+    width: calc((100% / 12) * 5);
+  }
+  .col-sd-6 {
+    width: calc((100% / 12) * 6);
+  }
+  .col-sd-7 {
+    width: calc((100% / 12) * 7);
+  }
+  .col-sd-8 {
+    width: calc((100% / 12) * 8);
+  }
+  .col-sd-9 {
+    width: calc((100% / 12) * 9);
+  }
+  .col-sd-10 {
+    width: calc((100% / 12) * 10);
+  }
+  .col-sd-11 {
+    width: calc((100% / 12) * 11);
+  }
+  .col-sd-12 {
+    width: calc((100% / 12) * 12);
+  }
+  /* /misure colonne max-width 768px - small device */
+  /* misure colonne offset min-width 993px - large device */
+  .col-sd-offset-1 {
+    margin-left: calc((100% / 12) * 1);
+  }
+  .col-sd-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+  }
+  .col-sd-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+  }
+  .col-sd-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+  }
+  .col-sd-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+  }
+  .col-sd-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+  }
+  .col-sd-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+  }
+  .col-sd-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+  }
+  .col-sd-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+  }
+  .col-sd-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+  }
+  .col-sd-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+  }
+/* /misure colonne offset min-width 993px - large device */
 }
-.debug [class*="col-"] {
-  background-color: #c5c5c5;
-  border: 1px solid white;
-}
-/* /debug */
