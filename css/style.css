@@ -11,6 +11,10 @@ img {
   height: 200px;
 }
 
-#steps {
+section {
+  margin: 50px auto;
+}
+#steps,
+#why {
   background-color: #f9f9f9;
 }
