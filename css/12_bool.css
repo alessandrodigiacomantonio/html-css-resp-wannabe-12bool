@@ -1,3 +1,6 @@
+html {
+  font-size: 16px;
+}
 .container-12col {
   max-width: 1080px;
   margin: 0 auto;
@@ -13,7 +16,7 @@
 }
 
   /* misure colonne min-width 993px - large device*/
-@media screen (min-width: 993px) {
+@media screen and (max-width: 1000rem) {
   .col-ld-1 {
     width: calc((100% / 12) * 1);
   }
@@ -90,7 +93,7 @@
 /* /misure colonne offset min-width 993px - large device */
 
 /* misure colonne min-width 769px and max-width 992px - medium device*/
-@media screen (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .col-md-1 {
     width: calc((100% / 12) * 1);
   }
@@ -166,7 +169,7 @@
 /* /misure colonne offset min-width 993px - large device */
 
 /* misure colonne max-width 768px - small device*/
-@media screen (max-width: 768px){
+@media screen and (max-width: 768px){
   .col-sd-1 {
     width: calc((100% / 12) * 1);
   }
