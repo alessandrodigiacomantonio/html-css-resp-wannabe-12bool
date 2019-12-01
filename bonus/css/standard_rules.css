@@ -1,0 +1,161 @@
+/* regole di stile standard */
+
+html {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* questa classe deve essere assegnata al genitore dell'elemento da voler centrare */
+.centered {
+  position: relative;
+}
+.centered > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* /centered */
+
+/* regole sui buttons */
+.btn {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* regole su liste */
+.list-inline-block > li {
+  display: inline-block;
+}
+.list-style-none {
+  list-style: none;
+}
+
+/* regole su testo */
+.txt-decoration-none {
+  text-decoration: none;
+}
+.txt-align-c {
+  text-align: center;
+}
+.txt-align-l {
+  text-align: left;
+}
+.txt-align-r {
+  text-align: right;
+}
+.bold {
+  font-weight: 700;
+}
+.no-bold {
+  font-weight: 400;
+}
+
+/* regole su elementi flottanti */
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.float-l {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+
+/* regole su bordi */
+.border-circle {
+  border-radius: 50%;
+}
+
+/* regole su posizionamento, display e grandezze*/
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.pos.fix {
+  position: fixed;
+}
+.dis-block {
+  display: block;
+}
+.dis-inline-block {
+  display: inline-block;
+}
+.dis-inline {
+  display: inline;
+}
+.width-100 {
+  width: 100%;
+}
+.width-90 {
+  width: 90%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-30 {
+  width: 30%;
+}
+.width-25 {
+  width: 25%;
+}
+.width-20 {
+  width: 20%;
+}
+.width-10 {
+  width: 10%;
+}
+.height-100 {
+  height: 100%;
+}
+.height-90 {
+  height: 90%;
+}
+.height-80 {
+  height: 80%;
+}
+.height-70 {
+  height: 70%;
+}
+.height-60 {
+  height: 60%;
+}
+.height-50 {
+  height: 50%;
+}
+.height-40 {
+  height: 40%;
+}
+.height-30 {
+  height: 30%;
+}
+.height-25 {
+  height: 25%;
+}
+.height-20 {
+  height: 20%;
+}
+.height-10 {
+  height: 10%;
+}
